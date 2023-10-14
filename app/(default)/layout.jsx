@@ -7,11 +7,7 @@ import 'aos/dist/aos.css'
 
 import Footer from '@/components/ui/footer'
 
-export default function DefaultLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {  
+export default function DefaultLayout({children}) {  
 
   useEffect(() => {
     AOS.init({
